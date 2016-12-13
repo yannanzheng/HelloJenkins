@@ -10,7 +10,7 @@ public class PersonTest {
     @Test
     public void should_return_person_object_when_create(){
         Person person=new Person("Jack",18);
-        assertEquals("Jack",person.getName());
+        assertEquals("Jack1",person.getName());
 
     }
 }
